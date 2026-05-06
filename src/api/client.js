@@ -1,5 +1,5 @@
 // API base URL — reads from Vite env or falls back to Render live URL
-const BASE_URL = import.meta.env.VITE_API_URL || "https://remindapp-3.onrender.com";
+const BASE_URL = import.meta.env.VITE_API_URL || "https://remindapp-4.onrender.com";
 
 function getToken() {
   return localStorage.getItem("rm_token");
